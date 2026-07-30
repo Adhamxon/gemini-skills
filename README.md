@@ -1,6 +1,6 @@
 # Gemini Skills — Gem Instructions for Google Gemini
 
-A collection of instruction templates for **Google Gemini Gems** — custom AI assistants that remember their role across conversations. Each `.md` file in `gems/` contains copy-paste ready instructions optimized for software engineering workflows.
+A **comprehensive collection of 13 Gem instruction templates** for **Google Gemini** — custom AI assistants that remember their role across conversations. Each Gem is powered by **384 skills** from the [opencode-ultimate-skills](https://github.com/Adhamxon/opencode-ultimate-skills) project. Just copy, paste, and start using your domain expert.
 
 ## How Gemini Gems Work
 
@@ -24,12 +24,22 @@ Gems are persistent, role-specific versions of Gemini. Unlike a regular chat whe
 
 ## What's Inside
 
-- `gems/` — 5 Gem instruction files (Markdown format, ready to copy-paste):
-  - **Full Stack Engineer Gem** — Web app development, frontend to deployment
-  - **Code Reviewer Gem** — Code review across correctness, security, performance, maintainability
-  - **DevOps Engineer Gem** — CI/CD, cloud infra, Kubernetes, observability
-  - **TDD Engineer Gem** — Test-driven development, Red-Green-Refactor
-  - **Software Architect Gem** — System design, ADRs, architecture evaluation
+- `gems/` — **13 Gem instruction files** (Markdown format, ready to copy-paste):
+  | Gem | Skills Included |
+  |-----|----------------|
+  | **Architecture & Design** | Clean Architecture, DDD, system design, refactoring, team topologies, UI/UX |
+  | **Frontend Development** | TypeScript, Three.js, Tailwind, SvelteKit, tRPC, TanStack Query, Zustand |
+  | **Backend & API** | API design, Supabase, message queues, vector databases, Terraform |
+  | **Mobile & iOS** | Swift, SwiftUI, iOS patterns, concurrency, performance, debugging |
+  | **Project Management** | OKRs, PRDs, user stories, sprint planning, GTM, market sizing, pricing |
+  | **DevOps & Cloud** | GCP services, Docker, Kubernetes, BigQuery, Cloud Run, CI/CD |
+  | **Security & Testing** | OWASP, API security, JWT, XSS, SQL injection, container scanning |
+  | **Code Quality & Review** | Code review, TDD, debugging, domain modeling |
+  | **AI & LLM Development** | Claude API, Gemini API, MCP, skill creation, transformers |
+  | **Documentation & Design** | Figma, docs, spreadsheets, slides, brand design |
+  | **Git & Workflow** | Git workflow, conventional commits, CI/CD, shipping |
+  | **Browser & Debugging** | Playwright, web testing, Sentry, debugging |
+  | **Developer Productivity** | Obsidian, teaching, diagnostics, handoff |
 - `GEMS_CREATION_GUIDE.md` — Step-by-step guide to create each Gem
 - `docs/GETTING_STARTED.md` — Quick setup reference
 - `scripts/setup.bat` — Windows setup
