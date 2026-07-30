@@ -8,26 +8,29 @@
 
 ### Creating Your Gem
 
-1. **Name** your Gem (e.g., "Full Stack Engineer")
-2. **Instructions**: Copy the entire content from one of the `.md` files in the `gems/` directory and paste it into the instructions field
+1. **Name** your Gem (e.g., "Architecture & Design Expert")
+2. **Instructions**: Open any `.md` file in the `gems/` directory, copy the content under `## Instructions`, and paste it into the instructions field
 3. Optionally add **example prompts** and **knowledge files**
 4. Click **Save**
 
-### Using Your Gem
+## Available Gems (13)
 
-- Select your Gem from the Gems panel whenever you need assistance in that domain
-- The Gem will follow the instructions you provided when responding
+| Gem | Best For |
+|-----|----------|
+| **Architecture & Design** | System design, Clean Architecture, DDD, refactoring |
+| **Frontend Development** | React, TypeScript, Three.js, Tailwind, tRPC |
+| **Backend & API** | API design, Supabase, message queues, Terraform |
+| **Mobile & iOS** | Swift, SwiftUI, iOS development, debugging |
+| **Project Management** | OKRs, PRDs, user stories, sprint planning, GTM |
+| **DevOps & Cloud** | GCP services, Docker, Kubernetes, BigQuery |
+| **Security & Testing** | OWASP, API security, penetration testing |
+| **Code Quality & Review** | Code review, TDD, debugging, refactoring |
+| **AI & LLM Development** | Claude API, Gemini API, MCP servers, RAG |
+| **Documentation & Design** | Figma, documents, slides, spreadsheets, PDFs |
+| **Git & Workflow** | Git, conventional commits, CI/CD automation |
+| **Browser & Debugging** | Playwright, E2E testing, Sentry |
+| **Developer Productivity** | Obsidian, teaching, diagnostics, handoff |
 
 ## Files Included
 
-| File | Description |
-|------|-------------|
-| `gems/fullstack-engineer-gem.md` | Full Stack Engineer Gem |
-| `gems/code-reviewer-gem.md` | Code Reviewer Gem |
-| `gems/devops-engineer-gem.md` | DevOps Engineer Gem |
-| `gems/tdd-engineer-gem.md` | TDD Engineer Gem |
-| `gems/architect-gem.md` | Software Architect Gem |
-
-## Customization
-
-Edit any `.md` file to tailor the instructions to your specific needs. Each file contains the complete instruction text that can be copy-pasted into Gemini's Gem creation interface.
+All 13 Gem configs are in the `gems/` directory as Markdown files. Open any file, copy the Instructions section, and paste it into Gemini's Gem creation interface.
